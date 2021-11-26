@@ -16,7 +16,7 @@
       <div class="flex flex-col justify-center text-center">
         <p
           class="
-            montserrat
+            
             bg-clip-text bg-gradient-to-b
             from-b
             to-a
