@@ -17,7 +17,7 @@
       <img
         class="w-20 h-20 object-cover rounded-sm border-2 border-c"
         :src="img"
-        alt="Imagem do projeto {{title}}"
+        :alt="`Imagem do projeto ${title}`"
       />
     </div>
     <div>
