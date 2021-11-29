@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ProjectCard />
+    <ProjectGroup />
   </div>
 </template>
 

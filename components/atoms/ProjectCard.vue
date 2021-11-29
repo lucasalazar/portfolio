@@ -1,47 +1,68 @@
 <template>
-  <div class="flex flex-row md:flex-col">
-    <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
-      <div class="flex justify-center md:justify-end -mt-16">
-        <img
-          class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-          src=""
-        />
-      </div>
-      <div>
-        <h2 class="text-gray-800 text-3xl font-semibold">Lorem ipsum</h2>
-        <p class="mt-2 text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-          deserunt ea doloremque natus error, rerum quas odio quaerat nam ex
-          commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-        </p>
-      </div>
-      <div class="flex justify-end mt-4">
-        <a href="#" class="text-xl font-medium text-indigo-500">Lorem ipsum</a>
-      </div>
+  <div
+    class="
+      md:max-w-xl
+      py-4
+      px-8
+      bg-a
+      shadow-lg
+      rounded-lg
+      my-10
+      transform
+      duration-200
+      md:hover:shadow-2xl md:hover:scale-105
+    "
+  >
+    <div class="flex justify-center md:justify-end -mt-16">
+      <img
+        class="w-20 h-20 object-cover rounded-sm border-2 border-c"
+        :src="img"
+      />
     </div>
-    <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
-      <div class="flex justify-center md:justify-end -mt-16">
-        <img
-          class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-          src=""
-        />
-      </div>
-      <div>
-        <h2 class="text-gray-800 text-3xl font-semibold">Lorem ipsum</h2>
-        <p class="mt-2 text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-          deserunt ea doloremque natus error, rerum quas odio quaerat nam ex
-          commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-        </p>
-      </div>
-      <div class="flex justify-end mt-4">
-        <a href="#" class="text-xl font-medium text-indigo-500">Lorem ipsum</a>
-      </div>
+    <div>
+      <h2 class="montserrat text-d text-3xl font-semibold">
+        {{ title }}
+      </h2>
+      <p class="roboto mt-2 text-c">
+        {{ text }}
+      </p>
+    </div>
+    <div class="flex justify-center md:justify-end mt-4">
+      <a
+        :href="link"
+        rel="noreferrer noopener"
+        class="robotomono text-md font-medium text-a bg-c p-1 rounded-md"
+        >{{ linktext }}</a
+      >
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-export default Vue.extend({});
+export default Vue.extend({
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    text: {
+      type: String,
+      required: true,
+    },
+    link: {
+      type: String,
+      required: true,
+    },
+    linktext: {
+      type: String,
+      required: false,
+      default: "Confira esse projeto",
+    },
+    img: {
+      type: String,
+      required: true,
+    },
+  },
+});
 </script>

@@ -35,7 +35,7 @@
         Sobre mim
       </p>
       <p class="roboto text-b text-md font-medium md:px-5">
-        Estudande de programação desde os 15 anos, comecei com Java, fiz essa
+        Estudante de programação desde os 15 anos, comecei com Java, fiz essa
         escolha por ser a linguagem usada no meu jogo favorito à época. Logo
         depois conheci o desenvolvimento web, aprendendo o básico, apenas HTML e
         CSS. Passei um ano longe do desenvolvimento, enquanto estudava para o

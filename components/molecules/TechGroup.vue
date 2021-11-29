@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-2">
     <div data-aos-duration="800" data-aos="zoom-in-down">
       <TechCard
         techName="C#"

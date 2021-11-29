@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ProjectBar
+    <SwitchButton
       text="Meus projetos"
       svg='<svg
           xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@
         >
           Eu sou Luca
         </p>
-        <p class="roboto text-e text-md font-medium">
+        <p class="roboto text-e text-md font-medium p-2 md:p-0">
           Um desenvolvedor fullstack que ama criar e aprender
         </p>
       </div>
