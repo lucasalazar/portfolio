@@ -10,7 +10,7 @@
       "
     >
       <ProjectCard
-        img="https://www.logolynx.com/images/logolynx/s_0b/0bdbd10ab2fa7096299f7c78e1ac55f5.png"
+        :img="require('@/assets/images/projeto1.webp')"
         title="Tower defense - Scratch"
         text="Meu primeiro projeto desenvolvido na
   faculdade, um jogo de tower defense feito na plataforma Scratch, pela
