@@ -16,7 +16,7 @@
       <div class="flex flex-col justify-center text-center">
         <p
           class="
-            
+            montserrat
             bg-clip-text bg-gradient-to-b
             from-b
             to-a
@@ -28,7 +28,8 @@
           Projetos
         </p>
         <p class="roboto text-e text-md font-medium">
-          Estou sempre explorando novas tecnologias e designs para ir além do meu conhecimento
+          Estou sempre explorando novas tecnologias e designs para ir além do
+          meu conhecimento
         </p>
       </div>
       <img
