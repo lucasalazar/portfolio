@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Nuxt Portfolio",
+    title: "Luca Salazar",
     htmlAttrs: {
       lang: "pt-br",
     },
@@ -11,9 +11,21 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Site de portfólio de Luca Salazar",
+        content: "Site de apresentação de Luca Salazar",
       },
       { name: "format-detection", content: "telephone=no" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap",
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+      },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
