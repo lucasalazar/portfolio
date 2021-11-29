@@ -8,7 +8,7 @@
         items-center
         justify-center
         px-5
-        text-gray-700
+        text-a
       "
     >
       <div class="max-w-md">

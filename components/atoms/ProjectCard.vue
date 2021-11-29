@@ -12,6 +12,8 @@
       duration-200
       md:hover:shadow-2xl md:hover:scale-105
     "
+    data-aos-duration="800"
+    data-aos="zoom-in-down"
   >
     <div class="flex justify-center md:justify-end -mt-16">
       <img
