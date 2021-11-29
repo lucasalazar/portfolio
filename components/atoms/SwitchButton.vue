@@ -19,6 +19,7 @@
           inline-flex
           items-center
         "
+        aria-label="Troca de página"
       >
         <span class="hidden md:inline mr-2">{{ text }}</span>
         <div v-html="svg"></div>

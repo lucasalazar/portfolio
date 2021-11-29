@@ -1,5 +1,4 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Luca Salazar",
     htmlAttrs: {
@@ -30,28 +29,20 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/css/global", "./aos/dist/aos.css"],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [{ src: "@/plugins/aos.client", mode: "client" }],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: [{ path: "@/components", pathPrefix: false }],
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    "@nuxt/typescript-build",
-    // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss",
-  ],
+  buildModules: ["@nuxt/typescript-build", "@nuxtjs/tailwindcss"],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     vendor: ["aos"],
+  },
+  loading: {
+    color: "blue",
+    height: "5px",
   },
 };
