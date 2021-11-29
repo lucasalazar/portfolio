@@ -29,6 +29,7 @@
     </div>
     <div class="flex justify-center md:justify-end mt-4">
       <a
+        alt="Imagem do projeto {{title}}"
         :href="link"
         rel="noreferrer noopener"
         class="robotomono text-md font-medium text-a bg-c p-1 rounded-md"
