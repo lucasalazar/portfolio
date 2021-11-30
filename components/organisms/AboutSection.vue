@@ -32,16 +32,10 @@
           font-black
         "
       >
-        Sobre mim
+        {{$t('4')}}
       </p>
       <p class="roboto text-b text-md font-medium md:px-5">
-        Estudante de programação desde os 15 anos, comecei com Java, fiz essa
-        escolha por ser a linguagem usada no meu jogo favorito à época. Logo
-        depois conheci o desenvolvimento web, aprendendo o básico, apenas HTML e
-        CSS. Passei um ano longe do desenvolvimento, enquanto estudava para o
-        vestibular, e, aos 18, entrei na Pontifícia Universidade Católica de
-        Minas Gerais, onde curso Ciência da Computação. Estagiando desde o
-        primeiro semestre, procuro sempre entregar mais do que o esperado.
+        {{$t('5')}}
       </p>
     </div>
     <img

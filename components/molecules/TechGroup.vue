@@ -1,52 +1,31 @@
 <template>
   <div class="p-2">
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="C#"
-        description="Linguagem que tenho mais experiência, extremamente usada no meu segundo estágio, conhecimento em .NET Framework e ASP.NET."
-      />
+      <TechCard techName="C#" :description="$t('8')" />
     </div>
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="JavaScript"
-        description="Muito presente nos meus projetos e cursos, um dos principais pontos da minha stack."
-      />
+      <TechCard techName="JavaScript" :description="$t('9')" />
     </div>
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="TypeScript"
-        description="Usada tanto nos meus projetos de Nuxt, quanto nos cursos de Angular que fiz no meu segundo estágio."
-      />
+      <TechCard techName="TypeScript" :description="$t('10')" />
     </div>
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="Vue.js"
-        description="Uma das minhas techs favoritas, que também é um dos meus grandes focos de estudo."
-      />
+      <TechCard techName="Angular" :description="$t('31')" />
     </div>
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="Nuxt.js"
-        description="Framework muito usado nos meus projetos, fonte de estudo do bootcamp da <a class='bg-c text-a' target='_blank' rel='noreferrer noopener' href='https://www.cataline.io'>Cataline</a> feito por mim em novembro de 2021."
-      />
+      <TechCard techName="Vue.js" :description="$t('11')" />
     </div>
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="Adonis.js"
-        description="Framework estudado no bootcamp da <a class='bg-c text-a' target='_blank' rel='noreferrer noopener' href='https://www.cataline.io'>Cataline</a> feito por mim em novembro de 2021."
-      />
+      <TechCard techName="Nuxt.js" :description="$t('12')" />
     </div>
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="Tailwind CSS"
-        description="Framework CSS muito útil quando combinado à metodologia de atomic design."
-      />
+      <TechCard techName="Adonis.js" :description="$t('13')" />
     </div>
     <div data-aos-duration="800" data-aos="zoom-in-up">
-      <TechCard
-        techName="Bootstrap"
-        description="Vastamente usado nos meus projetos, prezando sempre pela responsividade."
-      />
+      <TechCard techName="Tailwind CSS" :description="$t('14')" />
+    </div>
+    <div data-aos-duration="800" data-aos="zoom-in-up">
+      <TechCard techName="Bootstrap" :description="$t('15')" />
     </div>
   </div>
 </template>

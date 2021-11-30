@@ -1,3 +1,4 @@
+import i18n from "./config/i18n";
 export default {
   head: {
     title: "Luca Salazar",
@@ -32,15 +33,37 @@ export default {
   css: ["@/assets/css/global", "./aos/dist/aos.css"],
 
   plugins: [{ src: "@/plugins/aos.client", mode: "client" }],
+
   components: [{ path: "@/components", pathPrefix: false }],
 
   buildModules: ["@nuxt/typescript-build", "@nuxtjs/tailwindcss"],
 
-  modules: ["nuxt-lazy-load"],
+  modules: ["nuxt-lazy-load", "@nuxtjs/i18n"],
+
+  i18n: {
+    vueI18nLoader: true,
+    defaultLocale: "pt",
+    locales: [
+      {
+        code: "pt",
+        name: "Português",
+      },
+      {
+        code: "es",
+        name: "Español",
+      },
+      {
+        code: "en",
+        name: "English",
+      },
+    ],
+    vueI18n: i18n,
+  },
 
   build: {
     vendor: ["aos"],
   },
+
   loading: {
     color: "blue",
     height: "5px",

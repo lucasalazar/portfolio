@@ -21,10 +21,10 @@
           py-2
         "
       >
-        Tecnologias
+        {{$t('6')}}
       </p>
       <p class="roboto text-b text-md font-medium md:px-5">
-        Aqui estão algumas das minhas techs.
+        {{$t('7')}}
       </p>
     </div>
     <TechGroup class="max-w-4xl" />

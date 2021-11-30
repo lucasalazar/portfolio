@@ -2,7 +2,7 @@
   <div class="fixed z-10 top-2 md:top-6 right-2 md:right-6">
     <div class="m-3">
       <NuxtLink
-        :to="to"
+        :to="localePath(to)"
         class="
           bg-white
           text-gray-800

@@ -1,7 +1,8 @@
 <template>
   <div>
+    <LanguageSwitch />
     <SwitchButton
-      text="Meus projetos"
+      :text="$t('27')"
       svg='<svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -30,7 +31,7 @@
         data-not-lazy
       />
       <div class="flex flex-col justify-center text-center">
-        <p class="montserrat text-a text-lg font-medium">OLÁ</p>
+        <p class="montserrat text-a text-lg font-medium">{{ $t("1") }}</p>
         <p
           class="
             montserrat
@@ -41,10 +42,10 @@
             font-black
           "
         >
-          Eu sou Luca
+          {{ $t("2") }}
         </p>
         <p class="roboto text-e text-md font-medium p-2 md:p-0">
-          Um desenvolvedor fullstack que ama criar e aprender
+          {{ $t("3") }}
         </p>
       </div>
     </div>

@@ -12,62 +12,50 @@
       <ProjectCard
         :img="require('@/assets/images/projeto1.webp')"
         title="Tower defense - Scratch"
-        text="Meu primeiro projeto desenvolvido na
-  faculdade, um jogo de tower defense feito na plataforma Scratch, pela
-  disciplina de Laboratório de Iniciação a Programação. Foi usado programação em
-  blocos."
+        :text="$t('25')"
         link="https://scratch.mit.edu/projects/501917857/"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto2.webp')"
         title="Portal de Filmes - V1"
-        text="Meu primeiro site desenvolvido na faculdade, simulando um
-                                portal real de filmes, durante a disciplina de Desenvolvimento de Interfaces Web. Foi
-                                usado HTML, CSS e Bootstrap."
+        :text="$t('18')"
         link="https://portal-de-filmes-xi.vercel.app/"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto3.webp')"
         title="Hot Finger Genius - Scratch"
-        text="Projeto desenvolvido na disciplina de Laboratório de
-                                Iniciação a Programação, um jogo de batalha de clicks, feito na plataforma Scratch,
-                                juntamente do seu site com a documentação e tutorial."
+        :text="$t('19')"
         link="https://hot-finger-genius.vercel.app/"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto4.webp')"
         title="Verificador de Site - V1"
-        text="Esse projeto foi desenvolvido na disciplina de Trabalho
-                                Interdisciplinar: Aplicações WEB, um site para ajudar a combater o phishing. Foi usado
-                                HTML, CSS, Bootstrap e JavaScript."
+        :text="$t('20')"
         link="https://verificador-de-sites.vercel.app/"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto5.webp')"
         title="Portal de Filmes - V2"
-        text="O portal anterior foi melhorado, passando a consumir a API do
-                                TheMovieDB, além de ser implementada uma barra de pesquisa de filmes. Foi usado HTML,
-                                CSS e Bootstrap e JavaScript."
+        :text="$t('21')"
         link="https://portal-de-filmes-diw.vercel.app/"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto6.webp')"
         title="C_Like"
-        text="Projeto desenvolvido na disciplina de Introdução à Computação, calcula média de altura de um grupo de pessoas, podendo separar por sexo.
-                                Foi desenvolvido o mesmo projeto em Python, C# e Java."
+        :text="$t('22')"
         link="#"
         linktext="Projeto não disponível"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto7.webp')"
         title="Luca Mine_RPG"
-        text="Meu primeiro projeto publicado em Java, desenvolvido em 2018, onde trazia características do modo de jogo RPG ao Minecraft. Projeto consumia a BukkitAPI, disponibilizada pelo próprio jogo."
+        :text="$t('23')"
         link="https://github.com/lucasalazar/Luca-MineRPG"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto8.webp')"
         title="Luca dev.finance$"
-        text="Um projeto desenvolvido por mim, durante a Maratona Discover, promovida pela Rocketseat, de controle de finanças pessoais. O projeto, hospedado na Vercel, foi feito em HTML, CSS e JavaScript."
+        :text="$t('24')"
         link="https://github.com/lucasalazar/luca-dev.finances"
       />
     </div>
