@@ -16,7 +16,6 @@
           font-bold
           rounded
           border-b-2 border-a
-          hover:bg-b hover:text-white
           transition
           ease-in-out
           duration-300

@@ -25,7 +25,7 @@
         <h2 class="montserrat text-d text-3xl font-semibold ">
           {{ title }}
         </h2>
-        <p class="roboto mt-2 text-c">
+        <p class="roboto mt-2 text-white">
           {{ text }}
         </p>
       </div>
@@ -33,7 +33,7 @@
         <a
           :href="link"
           rel="noreferrer noopener"
-          class="robotomono text-md font-medium text-a bg-c p-2 hover-underline-animation rounded-md"
+          class="robotomono text-md font-medium text-a bg-white p-2 hover-underline-animation rounded-md"
           >{{ linktext }}</a
         >
       </div>
