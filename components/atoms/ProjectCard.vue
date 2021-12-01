@@ -16,13 +16,13 @@
     >
       <div class="flex justify-center md:justify-end -mt-16">
         <img
-          class="w-20 h-20 object-cover rounded-sm border-2 border-c "
+          class="w-20 h-20 object-cover rounded-sm border-2 border-c"
           :src="img"
           :alt="`Imagem do projeto ${title}`"
         />
       </div>
       <div>
-        <h2 class="montserrat text-d text-3xl font-semibold ">
+        <h2 class="montserrat text-d text-3xl font-semibold">
           {{ title }}
         </h2>
         <p class="roboto mt-2 text-white">
@@ -33,7 +33,16 @@
         <a
           :href="link"
           rel="noreferrer noopener"
-          class="robotomono text-md font-medium text-a bg-white p-2 hover-underline-animation rounded-md"
+          class="
+            robotomono
+            text-md
+            font-medium
+            text-a
+            bg-white
+            p-2
+            hover-underline-animation
+            rounded-md
+          "
           >{{ linktext }}</a
         >
       </div>
@@ -43,6 +52,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import i18n from "~/config/i18n";
 export default Vue.extend({
   props: {
     title: {
@@ -60,7 +70,7 @@ export default Vue.extend({
     linktext: {
       type: String,
       required: false,
-      default: $t('33'),
+      default: i18n.$t("33"),
     },
     img: {
       type: String,
