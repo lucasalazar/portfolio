@@ -60,7 +60,7 @@ export default Vue.extend({
     linktext: {
       type: String,
       required: false,
-      default: "Confira esse projeto",
+      default: $t('33'),
     },
     img: {
       type: String,
