@@ -44,7 +44,6 @@
         title="C_Like"
         :text="$t('22')"
         link="#"
-        :linktext="$t('32')"
       />
       <ProjectCard
         :img="require('@/assets/images/projeto7.webp')"

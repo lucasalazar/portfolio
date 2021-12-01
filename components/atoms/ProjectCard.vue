@@ -43,7 +43,7 @@
             hover-underline-animation
             rounded-md
           "
-          >{{ linktext }}</a
+          >{{ $t("32") }}</a
         >
       </div>
     </div>
@@ -52,7 +52,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-import i18n from "~/config/i18n";
 export default Vue.extend({
   props: {
     title: {
@@ -66,11 +65,6 @@ export default Vue.extend({
     link: {
       type: String,
       required: true,
-    },
-    linktext: {
-      type: String,
-      required: false,
-      default: i18n.$t("33"),
     },
     img: {
       type: String,
