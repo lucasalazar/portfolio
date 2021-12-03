@@ -21,7 +21,7 @@
             &copy; Copyright, {{ currentYear }}.
           </p>
           <div class="order-1 md:order-2">
-            <Link text="LinkedIn" url="https://www.linkedin.com" />
+            <Link text="LinkedIn" url="https://www.linkedin.com/in/lucasalazar/" />
             <Link class="border-l" text="Github" url="https://github.com/lucasalazar" />
           </div>
         </div>
