@@ -65,7 +65,7 @@ export default {
   },
 
   loading: {
-    color: "blue",
+    color: "red",
     height: "5px",
   },
 };
