@@ -1,11 +1,4 @@
 <template>
-  <!-- <div class="lang-dropdown">
-    <select v-model="$i18n.locale">
-      <option v-for="lang in $i18n.locales" :key="lang.code" :value="lang.code">
-        {{ lang.name }}
-      </option>
-    </select>
-  </div> -->
   <div class="fixed z-10 top-14 md:top-20 right-2 md:right-6">
     <div class="m-3">
       <select
