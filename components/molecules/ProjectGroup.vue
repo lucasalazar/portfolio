@@ -16,7 +16,7 @@
         link="https://scratch.mit.edu/projects/501917857/"
       />
       <ProjectCard
-        :img="require('@/static/static/projeto2.webp')"
+        :img="require('@/static/projeto2.webp')"
         title="Portal de Filmes - V1"
         :text="$t('18')"
         link="https://portal-de-filmes-xi.vercel.app/"
