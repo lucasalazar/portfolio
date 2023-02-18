@@ -44,6 +44,7 @@
       alt="Imagem de sobre"
       data-aos="zoom-in-bottom"
       data-aos-duration="800"
+      data-not-lazy
     />
   </div>
 </template>
