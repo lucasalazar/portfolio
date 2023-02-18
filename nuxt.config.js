@@ -48,10 +48,10 @@ export default {
         code: "pt",
         name: "Português",
       },
-      {
-        code: "es",
-        name: "Español",
-      },
+      // {
+      //   code: "es",
+      //   name: "Español",
+      // },
       {
         code: "en",
         name: "English",
