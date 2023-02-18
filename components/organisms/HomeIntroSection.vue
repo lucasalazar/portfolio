@@ -26,7 +26,7 @@
     <div class="flex flex-col md:flex-row justify-center items-center">
       <img
         class="w-full h-full max-w-sm md:max-w-none md:h-5/12 md:w-5/12"
-        src="@/static/images/home.webp"
+        src="./static/images/home.webp"
         alt="Imagem de um desenvolvedor"
         data-not-lazy
       />
