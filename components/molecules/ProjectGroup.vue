@@ -10,7 +10,7 @@
       "
     >
       <ProjectCard
-        :img="require('/projeto1.png')"
+        img="'/projeto1.png'"
         title="Tower defense - Scratch"
         :text="$t('25')"
         link="https://scratch.mit.edu/projects/501917857/"
