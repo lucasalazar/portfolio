@@ -40,7 +40,7 @@
     </div>
     <img
       class="w-full h-full md:h-5/12 max-w-sm md:max-w-none md:w-4/12"
-      src="~/static/images/about.webp"
+      src="/about.png"
       alt="Imagem de sobre"
       data-aos="zoom-in-bottom"
       data-aos-duration="800"
