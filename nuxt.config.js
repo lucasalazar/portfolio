@@ -45,7 +45,7 @@ export default {
     defaultLocale: "pt",
     locales: [
       {
-        code: "pt",
+        code: "pt-br",
         name: "Português",
       },
       // {
@@ -53,7 +53,7 @@ export default {
       //   name: "Español",
       // },
       {
-        code: "en",
+        code: "en-us",
         name: "English",
       },
     ],

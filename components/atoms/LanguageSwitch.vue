@@ -21,6 +21,7 @@
           uppercase
         "
       >
+      Language:
         <option
           v-for="lang in $i18n.locales"
           :key="lang.code"
