@@ -1,10 +1,10 @@
 
 body{
-    cursor: url('../icon.png'), auto
+    cursor: url('../images/icon.png'), auto
 }
 
 a{
-    cursor: url('../click.png'), auto
+    cursor: url('../images/click.png'), auto
 }
 .montserrat{
 font-family: 'Montserrat', sans-serif;
