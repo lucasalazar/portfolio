@@ -28,7 +28,7 @@
         >
           {{ $t("16") }}
         </p>
-        <p class="roboto text-e text-md font-medium">
+        <p class="roboto text-e text-md font-medium pl-2">
           {{ $t("17") }}
         </p>
       </div>
